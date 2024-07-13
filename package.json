@@ -1,0 +1,17 @@
+{
+  "name": "mjml2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:mjml": "mjml index.mjml -o index.html",
+    "watch:mjml": "nodemon -e mjml -x \"npm run build:mjml\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mjml": "^4.15.3",
+    "nodemon": "^3.1.4"
+  }
+}
